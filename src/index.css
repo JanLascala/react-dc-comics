@@ -11,7 +11,9 @@
   --primary-color: #0282f9;
   --dark-color: #303030;
   --darker-color: #1c1c1c;
+  --accent-color: #737676;
   --light-color: white;
+
 
 
 }
@@ -112,6 +114,32 @@ nav ul li a:hover {
   color: var(--light-color);
   background-image: url(../public/img/footer-bg.jpg);
   background-size: cover;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  .col {
+    padding: 1rem;
+  }
+
+
+  ul {
+    list-style: none;
+    padding: 1rem;
+    color: var(--accent-color);
+    text-align: left;
+
+    h3 {
+      color: var(--light-color);
+      padding: 0rem 1rem 1rem 0rem;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
 }
 
 .footer_logo {
