@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div class="container">
+        <header class="container">
             <img src="/img/dc-logo.png" alt="" />
 
             <nav>
@@ -17,7 +17,7 @@ export default function Header() {
                     <li><a href="/shop">Shop</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 
 }
