@@ -60,7 +60,18 @@ export default function Footer() {
                 </div>
                 <img class="footer-logo" src="/img/dc-logo-bg.png" alt="" />
             </div>
-            <div class="media_container"></div>
+            <div class="media_container">
+                <button class="signup_btn" type="button">SIGN-UP NOW!</button>
+                <div class="Socialmedia_box">
+                    <h3>FOLLOW US</h3>
+                    <img src="/img/footer-facebook.png" alt="" />
+                    <img src="/img/footer-twitter.png" alt="" />
+                    <img src="/img/footer-youtube.png" alt="" />
+                    <img src="/img/footer-pinterest.png" alt="" />
+                    <img src="/img/footer-periscope.png" alt="" />
+
+                </div>
+            </div>
 
 
 
