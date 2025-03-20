@@ -84,6 +84,10 @@ nav ul li a:hover {
   min-height: 100px;
   background-color: var(--primary-color);
   color: var(--light-color);
+  position: relative;
+  margin-bottom: -50px;
+  z-index: 2;
+
 }
 
 .img_container {
@@ -95,4 +99,31 @@ nav ul li a:hover {
     width: 50px;
     padding-right: 1rem;
   }
+}
+
+/*footer*/
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 400px;
+  z-index: 0;
+  color: var(--light-color);
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+}
+
+.footer_logo {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+.media_container {
+  height: 100px;
+  background-color: var(--primary-color);
+  position: relative;
+  margin-top: -50px;
+  z-index: 2;
 }
