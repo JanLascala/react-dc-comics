@@ -75,3 +75,24 @@ nav ul li a:hover {
   color: var(--light-color);
   min-height: 100px;
 }
+
+.container_shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 8rem;
+  min-height: 100px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+
+
+  img {
+    width: 50px;
+    padding-right: 1rem;
+  }
+}
