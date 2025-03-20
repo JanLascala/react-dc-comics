@@ -1,6 +1,8 @@
 export default function Main() {
     return (
-        <div>this iz main</div>
+        <div class="container_main">
+            <p>content goes here</p>
+        </div>
     )
 
 }
