@@ -85,6 +85,8 @@ nav ul li a:hover {
   text-align: center;
   margin: auto;
   gap: 3rem;
+  width: 100%;
+
 }
 
 .col-2 {
