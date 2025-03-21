@@ -72,10 +72,28 @@ nav ul li a:hover {
 /*main*/
 .container_main {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--darker-color);
   color: var(--light-color);
   min-height: 100px;
+}
+
+.row {
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  gap: 3rem;
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.cover_img {
+  width: 150px;
+  height: 230.766px;
 }
 
 .container_shop {
