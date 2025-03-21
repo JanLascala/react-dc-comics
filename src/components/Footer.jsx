@@ -1,11 +1,11 @@
 export default function Footer() {
     return (
         <>
-            <div class="footer_container">
-                <div class="list_container">
-                    <div class="row">
+            <div className="footer_container">
+                <div className="list_container">
+                    <div className="row">
 
-                        <div class="col">
+                        <div className="col">
                             <ul>
                                 <h3>DC COMICS</h3>
 
@@ -24,7 +24,7 @@ export default function Footer() {
                                 <li>Shop Dc collectibles</li>
                             </ul>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <ul>
 
                                 <h3>DC</h3>
@@ -43,7 +43,7 @@ export default function Footer() {
                             </ul>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <ul>
                                 <h3>SITES</h3>
                                 <li>DC</li>
@@ -58,11 +58,11 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <img class="footer-logo" src="/img/dc-logo-bg.png" alt="" />
+                <img className="footer-logo" src="/img/dc-logo-bg.png" alt="" />
             </div>
-            <div class="media_container">
-                <button class="signup_btn" type="button">SIGN-UP NOW!</button>
-                <div class="Socialmedia_box">
+            <div className="media_container">
+                <button className="signup_btn" type="button">SIGN-UP NOW!</button>
+                <div className="Socialmedia_box">
                     <h3>FOLLOW US</h3>
                     <img src="/img/footer-facebook.png" alt="" />
                     <img src="/img/footer-twitter.png" alt="" />

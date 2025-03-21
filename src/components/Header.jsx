@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <header class="container_header">
-            <img class="logo_header" src="/img/dc-logo.png" alt="" />
+        <header className="container_header">
+            <img className="logo_header" src="/img/dc-logo.png" alt="" />
 
             <nav>
                 <ul>
