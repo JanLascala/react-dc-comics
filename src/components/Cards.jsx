@@ -1,3 +1,6 @@
+//data comics
+import comics from "../data/comics"
+
 export default function Cards() {
     return (
         <>
