@@ -1,10 +1,9 @@
+import ComicsList from "./ComicsList"
 import Shop from "./Shop"
 export default function Main() {
     return (
         <>
-            <div className="container_main">
-                <p>content goes here</p>
-            </div>
+            <ComicsList />
             <Shop />
         </>
 
