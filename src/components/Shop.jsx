@@ -4,23 +4,23 @@ export default function Shop() {
         <div className="container_shop">
             <div className="img_container">
                 <img src="/img/buy-comics-digital-comics.png" alt="" />
-                <a> Digital comics </a>
+                <a> DIGITAL COMICS </a>
             </div>
             <div className="img_container">
                 <img src="/img/buy-comics-merchandise.png" alt="" />
-                <a> Dc merchandise  </a>
+                <a> DC MERCHANDISE </a>
             </div>
             <div className="img_container">
                 <img src="/img/buy-comics-subscriptions.png" alt="" />
-                <a> Subscription</a>
+                <a> SUBSCRIPTION </a>
             </div>
             <div className="img_container">
                 <img src="/img/buy-comics-shop-locator.png" alt="" />
-                <a> Comic shop locator</a>
+                <a> COMIC SHOP LOCATOR </a>
             </div>
             <div className="img_container">
                 <img src="/img/buy-dc-power-visa.svg" alt="" />
-                <a> Dc power Visa </a>
+                <a> DC POWER VISA </a>
             </div>
         </div>
     )

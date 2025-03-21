@@ -9,10 +9,10 @@ export default function Footer() {
                             <ul>
                                 <h3>DC COMICS</h3>
 
-                                <li>characters</li>
-                                <li>comics</li>
+                                <li>Characters</li>
+                                <li>Comics</li>
                                 <li>Movies</li>
-                                <li>tv</li>
+                                <li>TV</li>
                                 <li>Games</li>
                                 <li>Videos</li>
                                 <li>News</li>
