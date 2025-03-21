@@ -96,6 +96,13 @@ nav ul li a:hover {
   background-color: var(--darker-color);
   color: var(--light-color);
   min-height: 100px;
+
+  .btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-weight: 700;
+    padding: 1rem 3rem;
+  }
 }
 
 .row {

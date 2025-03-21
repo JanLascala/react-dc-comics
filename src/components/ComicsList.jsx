@@ -22,6 +22,15 @@ export default function ComicsList() {
                 <Cards id={11} />
             </div>
 
+            <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="LOAD MORE"
+            />
+
+
         </div>
     )
 }
