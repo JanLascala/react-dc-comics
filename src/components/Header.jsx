@@ -1,6 +1,6 @@
 import navLinks from "../data/navLinks";
 
-export default function Header() {
+export default function Header({ navLinks }) {
     return (
         <header className="container_header">
             <img className="logo_header" src="/img/dc-logo.png" alt="DC Logo" />

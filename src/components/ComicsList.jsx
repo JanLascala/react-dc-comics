@@ -7,23 +7,18 @@ import comics from "../data/comics"
 export default function ComicsList() {
     return (
 
+
         <div className="container_main">
 
             <div className="row">
-                <Cards id={0} />
-                <Cards id={1} />
-                <Cards id={2} />
-                <Cards id={3} />
-                <Cards id={4} />
-                <Cards id={5} />
+                {comics.slice(0, 6).map((comic, index) => (
+                    <Cards key={index} id={index} />
+                ))}
             </div>
             <div className="row">
-                <Cards id={6} />
-                <Cards id={7} />
-                <Cards id={8} />
-                <Cards id={9} />
-                <Cards id={10} />
-                <Cards id={11} />
+                {comics.slice(6, 12).map((comic, index) => (
+                    <Cards key={index + 6} id={index + 6} />
+                ))}
             </div>
 
             <input

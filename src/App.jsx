@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
+//import data
+import navLinks from './data/navLinks'
+import comics from './data/comics'
 
 function App() {
 
 
     return (
         <>
-            <Header />
-            <Main />
+            <Header navLinks={navLinks} />
+            <Main comics={comics} />
             <Footer />
         </>
     )
