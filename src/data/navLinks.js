@@ -40,3 +40,4 @@ const navLinks = [
         path: "/shop"
     }
 ];
+export default navLinks
