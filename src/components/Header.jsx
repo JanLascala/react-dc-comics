@@ -1,5 +1,6 @@
 import navLinks from "../data/navLinks";
 
+
 export default function Header({ navLinks }) {
     return (
         <header className="container_header">

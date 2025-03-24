@@ -1,3 +1,9 @@
+//import
+import dcComicsLinks from "../data/DcComicsFooter"
+import shopLinks from "../data/ShopDcFooter";
+import legalData from "../data/LegalDataFooter";
+import partners from "../data/Partners";
+
 export default function Footer() {
     return (
         <>
@@ -8,49 +14,34 @@ export default function Footer() {
                         <div className="col">
                             <ul>
                                 <h3>DC COMICS</h3>
-
-                                <li>Characters</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                                <li>TV</li>
-                                <li>Games</li>
-                                <li>Videos</li>
-                                <li>News</li>
+                                {dcComicsLinks.map((link, index) => (
+                                    <li key={index}>{link}</li>
+                                ))}
                             </ul>
 
                             <ul>
                                 <h3>SHOP</h3>
-                                <li>Shop Dc</li>
-                                <li>Shop Dc collectibles</li>
+                                {shopLinks.map((link, index) =>
+                                    <li key={index}>{link}</li>
+                                )}
                             </ul>
                         </div>
                         <div className="col">
                             <ul>
 
                                 <h3>DC</h3>
-                                <li>Terms of use</li>
-                                <li>privacy policy news</li>
-                                <li>Add choices</li>
-                                <li>Advertising</li>
-                                <li>Jobs</li>
-                                <li>Subssciprions</li>
-                                <li>Talent Workshop</li>
-                                <li>Cpsc Certificate</li>
-                                <li>Ratings</li>
-                                <li>Shop here</li>
-                                <li>Contact Us</li>
-
+                                {legalData.map((link, index) =>
+                                    <li key={index}>{link}</li>
+                                )}
                             </ul>
 
                         </div>
                         <div className="col">
                             <ul>
                                 <h3>SITES</h3>
-                                <li>DC</li>
-                                <li>MAD Magazine</li>
-                                <li>DC Kids</li>
-                                <li>DC Universe</li>
-                                <li>DC Power Visa</li>
+                                {partners.map((link, index) =>
+                                    <li key={index}>{link}</li>
+                                )}
                             </ul>
                         </div>
 
@@ -59,7 +50,7 @@ export default function Footer() {
 
                 </div>
                 <img className="footer-logo" src="/img/dc-logo-bg.png" alt="" />
-            </div>
+            </div >
             <div className="media_container">
                 <button className="signup_btn" type="button">SIGN-UP NOW!</button>
                 <div className="Socialmedia_box">

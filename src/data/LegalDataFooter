@@ -1,0 +1,14 @@
+const legalData = [
+    "Terms of Use",
+    "Privacy Policy News",
+    "Add Choices",
+    "Advertising",
+    "Jobs",
+    "Subscriptions",
+    "Talent Workshop",
+    "Cpsc Certificate",
+    "Ratings",
+    "Shop Here",
+    "Contact Us"
+];
+export default legalData
