@@ -5,6 +5,12 @@ import comics from "../data/comics"
 
 
 export default function ComicsList() {
+
+
+    const sayLoad = () => {
+        alert("load more");
+    }
+
     return (
 
 
@@ -21,13 +27,10 @@ export default function ComicsList() {
                 ))}
             </div>
 
-            <input
-                name=""
-                id=""
-                class="btn"
-                type="button"
-                value="LOAD MORE"
-            />
+            <button className="btn" onClick={sayLoad}>Load more</button>
+
+
+
 
 
         </div>
